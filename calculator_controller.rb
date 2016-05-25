@@ -1,4 +1,4 @@
-require_relative 'calculator'
+require_relative 'Calculator'
 class CalculatorController
   def initialize
     @calculator = Calculator.new

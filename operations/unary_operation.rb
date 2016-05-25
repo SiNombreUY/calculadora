@@ -1,5 +1,5 @@
-require_relative "Operation"
-class Unary < Operation
+require_relative "operation"
+class UnaryOperation < Operation
 	attr_accessor :operand
 	
 	def add_operand(valor_Unary)

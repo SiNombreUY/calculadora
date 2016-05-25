@@ -1,5 +1,5 @@
-require_relative "Operation"
-class Binary < Operation
+require_relative "operation"
+class BinaryOperation < Operation
 	attr_accessor :operand_1, :operand_2
 
 	def add_operand(valor_Binary)
